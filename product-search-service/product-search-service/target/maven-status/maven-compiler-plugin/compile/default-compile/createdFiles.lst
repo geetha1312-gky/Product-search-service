@@ -1,0 +1,7 @@
+com\retail\product_search_service\service\ProductService.class
+com\retail\product_search_service\service\ProductServiceImpl.class
+com\retail\product_search_service\controller\ProductController.class
+com\retail\product_search_service\ProductSearchServiceApplication.class
+com\retail\product_search_service\config\SwaggerConfig.class
+com\retail\product_search_service\Entity\Product.class
+com\retail\product_search_service\Repository\Productrepository.class
