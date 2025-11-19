@@ -41,7 +41,7 @@ public class ProductController {
     // 1. Add a new product
     // Maps to service: saveProduct(Product product)
     // POST /products
-    // ========================================================================================
+    // ================
     @PostMapping
     @Operation(summary = "Add a new product")
     public Product addProduct(@Valid @RequestBody Product product) {

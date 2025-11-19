@@ -12,6 +12,7 @@ import org.springframework.stereotype.Repository;
 //If you write:findByName(String name),Spring says:findBy → SELECT,Name → field in the Product entity,String name → value to match
 //So Spring internally builds this SQL:
 //SELECT * FROM products WHERE name = ?;You never write SQL.You ONLY write the method name.
+//this is for repository
 
 @Repository
 public interface Productrepository extends JpaRepository<Product, Long> {
